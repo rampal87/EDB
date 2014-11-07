@@ -1,0 +1,21 @@
+Thu Sep 25 19:32:08 IST 2014 : Apache Derby Network Server - 10.10.2.0 - (1582446) started and ready to accept connections on port 1235
+----------------------------------------------------------------
+Thu Sep 25 19:32:09 IST 2014:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-0148-ad1e-7a0a-ffff9fe74908 
+on database directory C:\EngagementDashboard\com.acc.tools.ed\database\engagement-dashboard-db\edb with class loader WebappClassLoader
+  context: /com.acc.tools.ed.web
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@2957c7bf
+ 
+Loaded from file:/C:/Users/murali.k.gavarasana/Downloads/sts-bundle/vfabric-tc-server-developer-2.9.6.RELEASE/base-instance/wtpwebapps/com.acc.tools.ed.web/WEB-INF/lib/derby-10.10.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_45-b18
+user.dir=C:\Users\murali.k.gavarasana\Downloads\sts-bundle\sts-3.6.0.RELEASE
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=C:\\EngagementDashboard\\com.acc.tools.ed\\database\\engagement-dashboard-db
+Database Class Loader started - derby.database.classpath=''

@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<script src="C:\EngagementDashboard\com.acc.tools.ed\com.acc.tools.ed.web\src\main\webapp\script\libs\jquery-1.10.2.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+var edb = (function () {
+	
+   var publicMethod= function (msg) {
+	      alert("Hello-->"+msg);
+    };
+	return {publicMethod:publicMethod};
+
+	})();
+	
+edb=(function () {
+	
+	   var publicMethod2= function (msg) {
+		      alert("Hello World-->"+msg);
+	    };
+		return {publicMethod2:publicMethod2};
+
+		})(edb);	
+edb.publicMethod2('murali');
+</script>
+
+</body>
+</html>
